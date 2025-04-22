@@ -1,13 +1,15 @@
 // src/components/Footer.js
 import { Container, Row, Col } from "react-bootstrap";
+import "../Scss/Footer.Scss";
+import Logo from '../assets/logo.jpg'
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-5 mt-5">
-      <Container>
+    <footer className="bg-dark text-light foot">
+      <Container className="bg-dark text-light py-5 mt-5 ">
         <Row>
           <Col md={3}>
-            <h5>About Us</h5>
+            <img src={Logo} alt="" />
             <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
@@ -40,10 +42,10 @@ const Footer = () => {
               <li>My Wishlist</li>
               <li>Track Order</li>
             </ul>
-            <p className="mt-3">📍 Location: ANALOGUE MALL</p>
           </Col>
         </Row>
       </Container>
+      <p>© Analogue Mall | Powered by Analogue Inc. — a PGNSONS Company</p>
     </footer>
   );
 };
