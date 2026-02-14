@@ -1,0 +1,14 @@
+.hero {
+  background: #eee;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .laptop-placeholder {
+    width: 500px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+  }
+}

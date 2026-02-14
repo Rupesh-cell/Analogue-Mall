@@ -1,0 +1,50 @@
+.top-header {
+  background: white;
+  padding: 15px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  .search {
+    display: flex;
+
+    input {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: $primary;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+    }
+  }
+
+  .actions span {
+    margin-left: 15px;
+  }
+}
+
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
